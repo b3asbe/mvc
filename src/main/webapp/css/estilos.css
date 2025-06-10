@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+/* Ajustes para reducir el tamaño de la página */
+.main-container {
+height: 90vh; /* Reduce la altura total */
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.login-card {
+max-width: 25rem;
+margin: auto;
+}
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+      
+        /* Derechos de autor siempre abajo en la barra lateral */
+/* Estilo para el footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1976D2; /* Azul oscuro, puedes cambiarlo */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+    
+header{
+	width: 100%;
+	height: 50px;
+	background: #DD6255;
+	color: white;
+	padding-top: 0
+}
+header label{
+	padding: 10px;
+	font-size: 20px;
+}
+.container{
+	width: 60%;
+}
+.container {
+    height: 55vh; /* Reducir altura total */
+    margin-top: 2rem; /* Ajustar margen superior */
+}
+
+.buscar{
+	display: flex;
+}
+.form{
+	display: flex;
+	padding-left: 20px;
+}
+.btn{
+	width: 100px;
+	height: 35px;
+}
+.text-warning {
+    text-decoration: none; /* Evita subrayados */
+}
+
+
+/* Fondo oscuro para toda la página */
+body.bg-dark {
+    background-color: #343a40; /* Color oscuro */
+    color: #f8f9fa; /* Texto claro */
+}
+
+/* Estilos del formulario */
+.card.bg-white {
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Botón de sesión */
+.btn-primary {
+    background-color: #007bff; /* Azul Bootstrap */
+    border-color: #007bff;
+}
+
+/* Cambios en el texto del formulario */
+.form-label {
+    font-weight: bold;
+}
